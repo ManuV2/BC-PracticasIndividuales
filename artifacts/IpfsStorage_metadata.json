@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "file",
+						"type": "string"
+					}
+				],
+				"name": "setFileIPFS",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "userFiles",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"P2/IpfsStorage.sol": "IpfsStorage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"P2/IpfsStorage.sol": {
+			"keccak256": "0xa3c86311dd1f2dbe0f7400235a29864cbe5a4ab605118a063040b47d36f2ce47",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8783aa59fc451053d6264c15b85f978460a4d9c1bbfff77cca0b8c5ac4246f50",
+				"dweb:/ipfs/QmeaEi6h6qHpVxL4pLs5x1GzFv8z9wCWc5T9T4FbwMDh7R"
+			]
+		}
+	},
+	"version": 1
+}
